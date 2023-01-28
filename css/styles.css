@@ -348,7 +348,8 @@ nav {
 
 @media (max-width: 1024px) {
     .main {
-        width: 834px;
+        width: 100%;
+        /* max-width: 834px; */
         min-width: 720px;
     }
 
@@ -385,6 +386,19 @@ nav {
 
     .dark_card {
         width: 100%;
+    }
+
+    .charts_sampling {
+        height: auto;
+    }
+
+    .Vector1 {
+        position: relative;
+    }
+
+    .Vector2 {
+        top: 0;
+        left: 0;
     }
 
     .charts {
@@ -580,8 +594,6 @@ nav {
     .dark_card {
         padding-top: 10px;
         padding-bottom: 12px;
-        /* height: auto; */
-        /* width: 100%; */
         background-color: var(--bg-3);
         border-radius: 10px;
     }
@@ -658,19 +670,6 @@ nav {
 
     .coin_price_date {
         font-size: 6px;
-    }
-
-    .charts_sampling {
-        height: auto;
-    }
-
-    .Vector1 {
-        position: relative;
-    }
-
-    .Vector2 {
-        top: 0;
-        left: 0;
     }
 
     .gray_card {
