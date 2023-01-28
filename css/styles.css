@@ -37,8 +37,6 @@ body {
 }
 
 .main {
-    /* background-color: var(--text-5); */
-    /* margin: 0 auto; */
     width: 1200px;
 }
 
@@ -67,7 +65,7 @@ body {
     color: var(--text-1);
 }
 
-.swap > .btn-primary {
+.swap>.btn-primary {
     margin-top: 47px;
 }
 
@@ -81,12 +79,11 @@ nav {
 }
 
 .frame>a>img {
-    margin-right: 258.62px;
+    margin-right: 230px;
     width: 65.38px;
 }
 
 .menu {
-    /* background-color: #00C2FF; */
     padding-left: 92px;
     padding-right: 53px;
     list-style: none;
@@ -128,7 +125,7 @@ nav {
 .dark_card {
     padding-top: 29px;
     padding-bottom: 46px;
-    width: 70%;
+    width: 67%;
     border-radius: 30px;
     background-color: var(--bg-3);
 }
@@ -228,7 +225,7 @@ nav {
 
 .gray_card {
     padding: 29px 0;
-    width: 29%;
+    width: 32%;
     border-radius: 20px;
     background-color: var(--bg-4);
 }
@@ -334,7 +331,6 @@ nav {
 }
 
 .change {
-    
     margin-top: 27px;
     margin-bottom: 4px;
     border-radius: 11px;
@@ -349,16 +345,6 @@ nav {
     width: 27.14px;
     height: 31.96px;
 }
-/*.gray_card {
-    width: 29%;
-}
-
-.content_swap {
-    margin: 0 85px;
-} */
-
-
-/* =========================SWAP========================== */
 
 @media (max-width: 1024px) {
     .main {
@@ -387,6 +373,7 @@ nav {
 
     .body {
         margin-top: 48px;
+        margin-bottom: 75px;
     }
 
     .content_swap {
@@ -406,9 +393,10 @@ nav {
     }
 
     .gray_card {
-        width: 98%;
+        margin-top: 31px;
         padding-top: 32px;
         padding-bottom: 23px;
+        width: 98%;
     }
 
     .swap {
@@ -423,6 +411,60 @@ nav {
     .default_setting {
         width: 100%;
     }
+
+    .label_item {
+        margin-left: 12px;
+    }
+
+    .input_container {
+        padding: 0 20px;
+        height: 77.09px;
+    }
+
+    .divider {
+        height: 22px;
+    }
+
+    .type_currency {
+        justify-content: center;
+    }
+
+    .coin_logo {
+        margin-left: 20px;
+        width: 42px;
+    }
+
+    .coin_name {
+        margin-left: 13px;
+        font-size: 20px;
+    }
+
+    .img_set {
+        margin-left: 13px;
+        Width: 19.24px;
+        Height: 11.59px;
+    }
+
+    .change {
+        margin-top: 17.73px;
+        margin-bottom: -15px;
+        width: 52.76px;
+        height: 51px;
+    }
+
+    .change_img {
+        width: 38px;
+        height: 40px;
+    }
+
+    .btn-primary {
+        border-radius: 20px;
+        height: 62px;
+    }
+
+    .swap>.btn-primary {
+        margin-top: 23.62px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -430,4 +472,102 @@ nav {
         width: 100%;
         min-width: 320px;
     }
+
+    .frame>a>img {
+        width: 40px;
+        height: 36px;
+    }
+
+    nav {
+        width: 100%;
+        padding-top: 5px;
+        height: 45px;
+        background-color: var(--bg-2);
+    }
+
+    .menu {
+        padding: 0 20px;
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .toggle {
+        order: 1;
+
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 18px;
+        color: var(--text-1);
+        text-decoration: none;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .toggle>a>img {
+        margin-left: 9px;
+        width: 15px;
+    }
+
+    .menu_item {
+        order: 2;
+
+        margin: 0 auto;
+        width: 85%;
+        height: 48px;
+        background-color: var(--bg-3);
+        display: none;
+
+        z-index: 1;
+    }
+
+    .active .menu_item {
+        display: block;
+    }
+
+    .menu li:nth-of-type(2) {
+        display: none;
+    }
+
+    .menu li:nth-of-type(3) {
+        border-radius: 20px 20px 0 0;
+    }
+
+    .menu li:nth-of-type(8) {
+        border-radius: 0 0 20px 20px;
+    }
+
+    .menu_item>a {
+
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+
+        padding: 15px 0;
+        border-radius: 20px;
+
+        text-decoration: none;
+        text-align: center;
+        color: var(--text-1);
+
+        display: block;
+    }
+
+    .menu_item>a:hover {
+        background-color: var(--bg-5);
+    }
+
+    .title {
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    .btn {
+        height: 38px;
+    }
+
+
 }
