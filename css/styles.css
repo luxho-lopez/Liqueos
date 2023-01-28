@@ -569,5 +569,224 @@ nav {
         height: 38px;
     }
 
+    .body {
+        margin: 22px;
+    }
 
+    .content_swap {
+        margin: 0;
+    }
+
+    .dark_card {
+        padding-top: 10px;
+        padding-bottom: 12px;
+        /* height: auto; */
+        /* width: 100%; */
+        background-color: var(--bg-3);
+        border-radius: 10px;
+    }
+
+    .charts {
+        margin: 0 2px;
+    }
+
+    .charts_head {
+        margin-left: 13.32px;
+        margin-right: 18.28px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .charts_title {
+        display: flex;
+        align-items: center;
+    }
+
+    .charts_balance {
+        margin-top: -2px;
+        margin-left: 11.68px;
+        padding: 2.15px 2.77px 0.85px 3.23px;
+        border: 1px solid var(--text-4);
+        border-radius: 10px;
+        font-size: 7px;
+        font-weight: 400;
+        color: var(--text-1);
+        background: none;
+    }
+
+    .charts_range {
+        font-size: 7px;
+        font-weight: 400;
+        color: var(--text-4);
+        border: 0;
+        background: none;
+        margin: -1px;
+        padding: 0.99px 1.98px;
+    }
+
+    .charts_range:nth-of-type(1) {
+        color: var(--text-3);
+        border-radius: 2px;
+        background: var(--text-1);
+    }
+
+    .charts_range:hover {
+        color: var(--text-1);
+        border-radius: 2px;
+        background: var(--text-4);
+    }
+
+    .charts_price {
+        font-family: var(--Font-Sora);
+        margin-left: 12.58px;
+    }
+
+    .coin_price {
+        margin-bottom: 3.25px;
+        font-size: 15px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .percent_price {
+        margin-left: 4.7px;
+        font-size: 9px;
+        color: var(--text-5);
+    }
+
+    .coin_price_date {
+        font-size: 6px;
+    }
+
+    .charts_sampling {
+        height: auto;
+    }
+
+    .Vector1 {
+        position: relative;
+    }
+
+    .Vector2 {
+        top: 0;
+        left: 0;
+    }
+
+    .gray_card {
+        margin-top: 16px;
+        padding: 16px 0 20px 0;
+    }
+
+    .swap {
+        margin: 0 20px;
+    }
+
+    .swap_head {
+        margin-bottom: 6px;
+        padding-right: 0;
+    }
+
+    .swap_ancient>button {
+        width: 19px;
+        height: 18px;
+    }
+
+    .label_item {
+        margin: 0;
+        font-size: 10px;
+    }
+
+    /* EXCHANGE ITEM */
+    .divider {
+        height: 9.74px;
+        border-left: 1px solid var(--text-2);
+    }
+
+    .label_item {
+        font-size: 10px;
+    }
+
+    .input_container {
+        margin-top: 3.79px;
+        padding: 0;
+
+        height: 33.75px;
+        background: var(--bg-5);
+        border-radius: 10px;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .insert_amount {
+        width: 49%;
+        height: 100%;
+        border: 0;
+        background: none;
+        font-family: var(--Font-Sora);
+        font-size: 15px;
+        color: var(--text-2);
+    }
+
+    .insert_amount:focus {
+        outline: none;
+    }
+
+    .insert_amount::placeholder {
+        color: var(--text-2);
+    }
+
+    .type_currency {
+        height: auto;
+        justify-content: center;
+    }
+
+    .type_currency:hover {
+        cursor: pointer;
+    }
+
+    .coin_logo {
+        margin: 0;
+        width: 20px;
+        height: 20px;
+    }
+
+    .coin_name {
+        margin-left: 5px;
+        font-size: 12px;
+        font-family: var(--Font-Sen);
+        color: var(--text-1);
+    }
+
+    .img_set {
+        width: 8px;
+        height: 4px;
+    }
+
+    .change {
+        margin: 19.45px auto -5px auto;
+        position: relative;
+        width: 40.32px;
+        height: 27.57px;
+        background-color: #1C3249;
+        border-radius: 10px;
+        z-index: 0;
+    }
+
+    .change_img {
+        position: absolute;
+        width: 13.16px;
+        height: 15.32px;
+        top: 30%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+    }
+
+    .swap > .btn-primary {
+        margin-top: 31px;
+        font-size: 15px;
+    }
 }
