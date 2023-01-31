@@ -36,6 +36,16 @@ body {
     align-items: center;
 }
 
+input,
+button {
+    border: 0;
+    background: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
 .main {
     width: 1200px;
 }
@@ -56,10 +66,6 @@ body {
     font-weight: 700;
 }
 
-.btn:hover {
-    cursor: pointer;
-}
-
 .btn-primary {
     background-color: var(--text-4);
     color: var(--text-1);
@@ -69,13 +75,30 @@ body {
     margin-top: 47px;
 }
 
+.dark_card {
+    background-color: var(--bg-3);
+}
+
+.gray_card {
+    background-color: var(--bg-4);
+}
+
+.gray_card_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* =========================NAV========================== */
 nav {
-    margin-top: 52px;
     padding-top: 18px;
     height: 100px;
     background-color: var(--bg-2);
     background: linear-gradient(90deg, rgba(5, 25, 45, 1) 0%, rgba(7, 32, 56, 1) 1.5%, rgba(7, 32, 56, 1) 98.5%, rgba(5, 25, 45, 1) 100%);
+}
+
+.main_menu {
+    margin-top: 52px;
 }
 
 .frame>a>img {
@@ -111,23 +134,18 @@ nav {
 /* =========================NAV========================== */
 
 /* =========================SWAP========================== */
-.body {
-    margin-top: 56px;
-}
-
 .content_swap {
-    margin: 0 85px;
+    margin: 56px 85px 0 85px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.dark_card {
+.dark_card_swap {
     padding-top: 29px;
     padding-bottom: 46px;
     width: 67%;
     border-radius: 30px;
-    background-color: var(--bg-3);
 }
 
 .charts {
@@ -161,10 +179,6 @@ nav {
     border-radius: 15px;
     color: var(--text-1);
     background: none;
-}
-
-.charts_balance:hover {
-    cursor: pointer;
 }
 
 .charts_range {
@@ -223,11 +237,10 @@ nav {
     width: 100%;
 }
 
-.gray_card {
+.gray_card_swap {
     padding: 29px 0;
     width: 32%;
     border-radius: 20px;
-    background-color: var(--bg-4);
 }
 
 .swap {
@@ -253,10 +266,10 @@ nav {
 }
 
 .swap_ancient button {
-    border: 0;
+    /* border: 0; */
     width: 19px;
     height: 18px;
-    background: none;
+    /* background: none; */
 }
 
 .default_setting {
@@ -285,8 +298,6 @@ nav {
 
 .insert_amount,
 .type_currency {
-    border: 0;
-    background: none;
     height: 52px;
 }
 
@@ -346,19 +357,95 @@ nav {
     height: 31.96px;
 }
 
+
+
+/* ====================== POOL PAGE ====================== */
+.body_pool {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.content_pool {
+    margin: 150px 243.5px 0 243.5px;
+}
+
+.gray_card_pool {
+    margin-bottom: 21px;
+    padding: 16px 0 30px 0;
+    border-radius: 15px;
+}
+
+.pool_head {
+    margin: 0 14.79px 13px 26px;
+    align-items: flex-start;
+}
+
+.pool_head button {
+    margin-top: -6px;
+    width: 23px;
+    height: 23px;
+}
+
+.pool_body {
+    margin: 0 26px;
+}
+
+.dark_card_pool {
+    border-radius: 30px;
+    padding: 39px 13.5px 21px 13.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tasks_button {
+    margin-bottom: 37px;
+    width: 363px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: var(--bg-4);
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasks_button>button {
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+    font-family: var(--Font-Sen);
+    font-size: 20px;
+    color: var(--text-2);
+    background-color: var(--bg-4);
+}
+
+.tasks_button>button:hover {
+    color: var(--text-1);
+    background-color: var(--bg-5);
+}
+
+.dark_card_pool>.btn-primary {
+    height: 64px;
+}
+
+/* ====================== POOL PAGE ====================== */
+
+
+
 @media (max-width: 1024px) {
     .main {
         width: 100%;
-        /* max-width: 834px; */
         min-width: 720px;
     }
 
     nav {
-        margin-top: 0;
         padding-top: 18px;
         height: 100px;
         background-color: var(--bg-2);
         background: linear-gradient(90deg, rgba(7, 32, 56, 1) 0%, rgba(7, 32, 56, 1) 100%);
+    }
+
+    .main_menu {
+        margin-top: 0;
     }
 
     .frame>a>img {
@@ -384,7 +471,7 @@ nav {
         align-items: center;
     }
 
-    .dark_card {
+    .dark_card_swap {
         width: 100%;
     }
 
@@ -406,7 +493,7 @@ nav {
         margin-right: 27.71px;
     }
 
-    .gray_card {
+    .gray_card_swap {
         margin-top: 31px;
         padding-top: 32px;
         padding-bottom: 23px;
@@ -420,10 +507,6 @@ nav {
     .swap_ancient button {
         width: 31px;
         height: 33px;
-    }
-
-    .default_setting {
-        width: 100%;
     }
 
     .label_item {
@@ -479,6 +562,23 @@ nav {
     .swap>.btn-primary {
         margin-top: 23.62px;
     }
+
+
+
+    /* ====================== POOL PAGE ====================== */
+    .body_pool {
+        margin: 0;
+        padding: 0;
+        height: calc(100vh - 118px);
+        display: flex;
+        align-items: center;
+    }
+
+    .content_pool {
+        margin: 0 37px;
+    }
+
+    /* ====================== POOL PAGE ====================== */
 }
 
 @media (max-width: 576px) {
@@ -591,10 +691,9 @@ nav {
         margin: 0;
     }
 
-    .dark_card {
+    .dark_card_swap {
         padding-top: 10px;
         padding-bottom: 12px;
-        background-color: var(--bg-3);
         border-radius: 10px;
     }
 
@@ -672,7 +771,7 @@ nav {
         font-size: 6px;
     }
 
-    .gray_card {
+    .gray_card_swap {
         margin-top: 16px;
         padding: 16px 0 20px 0;
     }
@@ -742,10 +841,6 @@ nav {
         justify-content: center;
     }
 
-    .type_currency:hover {
-        cursor: pointer;
-    }
-
     .coin_logo {
         margin: 0;
         width: 20px;
@@ -784,8 +879,25 @@ nav {
         z-index: 1;
     }
 
-    .swap > .btn-primary {
+    .swap>.btn-primary {
         margin-top: 31px;
         font-size: 15px;
     }
+
+
+    /* ====================== POOL PAGE ====================== */
+    .body_pool {
+        margin: 0;
+        padding: 0;
+    }
+
+    .content_pool {
+        margin: 0 14.5px;
+    }
+
+    .tasks_button {
+        width: 184.61px;
+    }
+
+    /* ====================== POOL PAGE ====================== */
 }
