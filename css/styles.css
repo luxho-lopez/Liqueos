@@ -426,7 +426,6 @@ nav {
 .dark_card_pool>.btn-primary {
     height: 64px;
 }
-
 /* ====================== POOL PAGE ====================== */
 
 
@@ -578,6 +577,16 @@ nav {
         margin: 0 37px;
     }
 
+    .gray_card_pool {
+        padding-bottom: 40px;
+    }
+
+    .tasks_button {
+        margin-bottom: 41.52px;
+        width: 414.86px;
+        height: 44.89px;
+
+    }
     /* ====================== POOL PAGE ====================== */
 }
 
@@ -642,11 +651,11 @@ nav {
         display: block;
     }
 
-    .menu li:nth-of-type(2) {
+    /* .menu li:nth-of-type(2) {
         display: none;
-    }
+    } */
 
-    .menu li:nth-of-type(3) {
+    .menu li:nth-of-type(2) {
         border-radius: 20px 20px 0 0;
     }
 
@@ -889,14 +898,52 @@ nav {
     .body_pool {
         margin: 0;
         padding: 0;
+
+        align-items: flex-start;
     }
 
     .content_pool {
-        margin: 0 14.5px;
+        margin: 67px 14.5px 0 14.5px;
+    }
+
+    .gray_card_pool {
+        margin-bottom: 6px;
+        padding: 13px 0;
+    }
+
+    .pool_head,
+    .pool_body {
+        margin: 0 11px;
+    }
+
+    .pool_head {
+        margin-bottom: 17px;
+    }
+
+    .pool_head > button {
+        width: 18px;
+        height: 18px;
+    }
+
+    .dark_card_pool {
+        padding: 15px 25.29px 20px 25.29px;
+    }
+
+    .dark_card_pool > .btn-primary {
+        height: 38px;
+        font-size: 15px;
     }
 
     .tasks_button {
+        margin-bottom: 21px;
         width: 184.61px;
+        height: 22px;
+        border-radius: 8px;
+    }
+    
+    .tasks_button > button {
+        border-radius: 8px;
+        font-size: 10px;
     }
 
     /* ====================== POOL PAGE ====================== */
