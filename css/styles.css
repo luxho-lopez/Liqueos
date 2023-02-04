@@ -36,6 +36,15 @@ body {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: var(--text-1);
+}
+
+a:hover {
+    color: var(--text-4);
+}
+
 input,
 button {
     border: 0;
@@ -119,12 +128,6 @@ nav {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    color: var(--text-1);
-    text-decoration: none;
-}
-
-.menu_item a:hover {
-    color: var(--text-4);
 }
 
 .toggle {
@@ -266,10 +269,8 @@ nav {
 }
 
 .swap_ancient button {
-    /* border: 0; */
     width: 19px;
     height: 18px;
-    /* background: none; */
 }
 
 .default_setting {
@@ -426,7 +427,126 @@ nav {
 .dark_card_pool>.btn-primary {
     height: 64px;
 }
+
 /* ====================== POOL PAGE ====================== */
+
+
+/* ====================== STAKE PAGE ====================== */
+#idLock,
+#idStaking,
+#idInactivePools {
+    display: none;
+}
+
+.body_stake {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.content_stake {
+    margin: 75px 79.5px 0 79.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.gray_card_stake {
+    width: 25%;
+    border-radius: 20px;
+    padding: 19px 0 17px 0;
+}
+
+.stake_head {
+    margin: 0 19px 11px 19px;
+}
+
+.stake_body {
+    margin-left: 19px;
+    margin-right: 9px;
+}
+
+.paragraph_2 {
+    margin-top: 11px;
+    margin-bottom: 5px;
+}
+
+.paragraph>a {
+    color: #3A71FF;
+}
+
+.paragraph>a:hover {
+    color: var(--text-4);
+}
+
+.information {
+    margin-top: 16px;
+    list-style: none;
+}
+
+.information li {
+    margin-bottom: 20px;
+}
+
+.information_name {
+    margin-bottom: 5px;
+}
+
+.information_status {
+    font-family: var(--Font-Sora);
+    font-size: 24px;
+}
+
+.dark_card_stake {
+    padding: 25px 0;
+    width: 73%;
+    border-radius: 30px;
+}
+
+.many_selection {
+    margin: 0 23px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.many_selection_btn {
+    width: 342px;
+    height: 51px;
+    border-radius: 15px;
+    background: var(--bg-4);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-selector {
+    padding: 9px 16px;
+    border-radius: 10px;
+    font-family: var(--Font-Sen);
+    font-size: 15px;
+    color: var(--text-1);
+}
+
+.btn-selector:hover {
+    background-color: var(--bg-1);
+}
+
+.legend {
+    color: var(--text-2);
+}
+
+.many_options {
+    margin: 18px 23px 0;
+}
+
+.many_options img {
+    width: 100%;
+}
+/* ====================== STAKE PAGE ====================== */
 
 
 
@@ -587,6 +707,20 @@ nav {
         height: 44.89px;
 
     }
+
+    /* ====================== POOL PAGE ====================== */
+
+
+    /* ====================== POOL PAGE ====================== */
+    .body_stake {
+        /* font-size: 15px; */
+        font-weight: 400;
+    }
+
+    .content_stake {
+        margin: 89px 30px 0;
+    }
+
     /* ====================== POOL PAGE ====================== */
 }
 
@@ -623,8 +757,6 @@ nav {
         font-size: 15px;
         font-weight: 400;
         line-height: 18px;
-        color: var(--text-1);
-        text-decoration: none;
 
         display: flex;
         align-items: center;
@@ -651,10 +783,6 @@ nav {
         display: block;
     }
 
-    /* .menu li:nth-of-type(2) {
-        display: none;
-    } */
-
     .menu li:nth-of-type(2) {
         border-radius: 20px 20px 0 0;
     }
@@ -672,9 +800,7 @@ nav {
         padding: 15px 0;
         border-radius: 20px;
 
-        text-decoration: none;
         text-align: center;
-        color: var(--text-1);
 
         display: block;
     }
@@ -920,7 +1046,7 @@ nav {
         margin-bottom: 17px;
     }
 
-    .pool_head > button {
+    .pool_head>button {
         width: 18px;
         height: 18px;
     }
@@ -929,7 +1055,7 @@ nav {
         padding: 15px 25.29px 20px 25.29px;
     }
 
-    .dark_card_pool > .btn-primary {
+    .dark_card_pool>.btn-primary {
         height: 38px;
         font-size: 15px;
     }
@@ -940,10 +1066,23 @@ nav {
         height: 22px;
         border-radius: 8px;
     }
-    
-    .tasks_button > button {
+
+    .tasks_button>button {
         border-radius: 8px;
         font-size: 10px;
+    }
+
+    /* ====================== POOL PAGE ====================== */
+
+
+    /* ====================== POOL PAGE ====================== */
+    .body_stake {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .content_stake {
+        margin: 26px 12.5px 0 12.5px;
     }
 
     /* ====================== POOL PAGE ====================== */
