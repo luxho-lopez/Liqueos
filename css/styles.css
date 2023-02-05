@@ -281,66 +281,12 @@ nav {
     font-size: 13px;
 }
 
-.input_container {
+.content_entry {
     margin-top: 13px;
     border-radius: 15px;
     background-color: var(--bg-5);
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.divider {
-    height: 15px;
-    border-left: 1px solid var(--text-4);
-}
-
-.insert_amount,
-.type_currency {
-    height: 52px;
-}
-
-.insert_amount {
-    padding: 0 14px;
-    width: 48.5%;
-
-    font-family: var(--Font-Sora);
-    font-weight: 400;
-    font-size: 24px;
-    color: var(--text-1);
-
-    outline-style: none;
-}
-
-.insert_amount::placeholder {
-    color: var(--text-1);
-}
-
-.type_currency {
-    padding: 0 19px 0 10px;
-    width: 48.5%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.coin_logo {
-    width: 22px;
-}
-
-.coin_name {
-    font-family: var(--Font-Sen);
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--text-1);
-}
-
-.img_set {
-    Width: 5.86px;
-    Height: 7.96px;
-}
 
 .change {
     margin-top: 27px;
@@ -511,11 +457,10 @@ nav {
     align-items: center;
 }
 
-.many_selection_btn {
+.gray_card_selection {
     width: 342px;
     height: 51px;
     border-radius: 15px;
-    background: var(--bg-4);
 
     display: flex;
     flex-direction: row;
@@ -545,6 +490,18 @@ nav {
 
 .many_options img {
     width: 100%;
+}
+
+.default_table {
+    width: 100%;
+}
+
+
+
+.nactivePools_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 /* ====================== STAKE PAGE ====================== */
 
@@ -632,34 +589,7 @@ nav {
         margin-left: 12px;
     }
 
-    .input_container {
-        padding: 0 20px;
-        height: 77.09px;
-    }
-
-    .divider {
-        height: 22px;
-    }
-
-    .type_currency {
-        justify-content: center;
-    }
-
-    .coin_logo {
-        margin-left: 20px;
-        width: 42px;
-    }
-
-    .coin_name {
-        margin-left: 13px;
-        font-size: 20px;
-    }
-
-    .img_set {
-        margin-left: 13px;
-        Width: 19.24px;
-        Height: 11.59px;
-    }
+    
 
     .change {
         margin-top: 17.73px;
@@ -940,60 +870,7 @@ nav {
         font-size: 10px;
     }
 
-    .input_container {
-        margin-top: 3.79px;
-        padding: 0;
-
-        height: 33.75px;
-        background: var(--bg-5);
-        border-radius: 10px;
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .insert_amount {
-        width: 49%;
-        height: 100%;
-        border: 0;
-        background: none;
-        font-family: var(--Font-Sora);
-        font-size: 15px;
-        color: var(--text-2);
-    }
-
-    .insert_amount:focus {
-        outline: none;
-    }
-
-    .insert_amount::placeholder {
-        color: var(--text-2);
-    }
-
-    .type_currency {
-        height: auto;
-        justify-content: center;
-    }
-
-    .coin_logo {
-        margin: 0;
-        width: 20px;
-        height: 20px;
-    }
-
-    .coin_name {
-        margin-left: 5px;
-        font-size: 12px;
-        font-family: var(--Font-Sen);
-        color: var(--text-1);
-    }
-
-    .img_set {
-        width: 8px;
-        height: 4px;
-    }
-
+    
     .change {
         margin: 19.45px auto -5px auto;
         position: relative;
