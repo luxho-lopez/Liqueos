@@ -4,7 +4,7 @@ function lockActive() {
     document.getElementById('idPoolsActive').style.background = 'none';
 
     document.getElementById('idLock').style.display = 'block';
-    document.getElementById('idLegend').style.display = 'block';
+    document.getElementById('idLegend').style.display = 'none';
     document.getElementById('idStaking').style.display = 'none';
     document.getElementById('idInactivePools').style.display = 'none';
 }
@@ -26,7 +26,7 @@ function poolsActive() {
     document.getElementById('idPoolsActive').style.background = '#05192D';
 
     document.getElementById('idInactivePools').style.display = 'block';
-    document.getElementById('idLegend').style.display = 'none';
+    document.getElementById('idLegend').style.display = 'block';
     document.getElementById('idLock').style.display = 'none';
     document.getElementById('idStaking').style.display = 'none';
 }
