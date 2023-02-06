@@ -547,9 +547,9 @@ nav {
     margin: 18px 23px 0;
 }
 
-.many_options img {
+/* .many_options img {
     width: 100%;
-}
+} */
 
 .idContend {
     width: 100%;
@@ -561,8 +561,7 @@ nav {
     justify-content: space-between;
 }
 
-.inactivePools_up,
-.inactivePools_down {
+.inactivePools_up {
     display: flex;
     justify-content: space-between;
 }
@@ -570,32 +569,6 @@ nav {
 .inactivePools_up {
     margin: 10px 21px;
     color: var(--text-2);
-}
-
-.inactivePools_down {
-    padding: 11px 12px;
-}
-
-.inactivePools_content {
-    /* padding: 11px 0; */
-    display: flex;
-    align-items: center;
-}
-
-.inactivePools_content:nth-child(2),
-.inactivePools_content:nth-child(4) {
-    font-family: var(--Font-Sora);
-    font-size: 20px;
-}
-
-.inactivePools_content > p > span {
-    font-family: var(--Font-Sen);
-    font-size: 15px;
-    color: var(--text-2);
-}
-
-.inactivePools_content > .coin_logo {
-    width: 63px;
 }
 
 
@@ -624,13 +597,130 @@ nav {
     margin-bottom: 17px;
 }
 
-.lock_content {
-    width: 69%;
+.idContend_lock {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lock_title {
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
+.lock_content_1 {
+    width: 70%;
+}
+
+.lock_content_1 > .gray_card {
+    border-radius: 10px;
+    padding: 20px 13px;
+}
+
+.cluster {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
+.cluster:nth-child(2) {
+    margin: 30px 0;
+}
+
+.cluster_item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cluster_item > img {
+    width: 57px;
+}
+
+.cluster_item_name {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.cluster_item_name > span {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.cluster:nth-child(2) > .cluster_item > .cluster_item_name > span {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.cluster > .content_entry {
+    width: 50%;
+    padding: 9px 19px;
+}
+
+.cluster > .content_entry > input {
+    width: 100%;
+    font-size: 40px;
+    color: var(--text-1);
+}
+
+.point {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.point td {
+    padding: 5px;
+}
+
+.lock_content_1 > .change {
+    margin: 22px auto;
+    background: none;
+}
+
+.data_time {
+    margin-top: 12px;
+    margin-right: 34px;
+    text-align: end;
+    font-size: 12px;
+    color: var(--text-2);
+}
+
+.lock_content_2 {
+    width: 28%;
+}
+
+.lock_content_2 > .content_entry {
+    padding: 18px;
+    height: 95%;
+}
+
+.lock_tab_defaul {
+    list-style: none;
+}
+
+.lock_tab_defaul > li {
+    /* background-color: #00FF19; */
+    /* font-family: var(--Font-Sen);
+    font-size: 15px; */
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: center; */
+}
+
+.lock_tab_defaul > li > p {
+    width: 70%;
+}
+
+.lock_tab_defaul > li > span {
+    width: 30%;
+    text-align: end;
+    color: var(--text-2);
+    /* background-color: #00C2FF; */
+}
 
 
 /* ====================== STAKE PAGE ====================== */
