@@ -730,6 +730,36 @@ nav {
 /* ====================== STAKE PAGE ====================== */
 
 
+/* ====================== BRIDGE PAGE ====================== */
+.body_bridge {
+    margin-top: 73px;
+    background-color: #00FF19;
+    display: flex;
+    justify-content: center;
+}
+
+.content_bridge {
+    background-color: #00C2FF;
+    width: 709px;
+}
+
+.content_bridge > .dark_card_bridge {
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dark_card_bridge > .many_selection {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ====================== BRIDGE PAGE ====================== */
+
+
 
 @media (max-width: 1024px) {
     .main {
@@ -1243,6 +1273,10 @@ nav {
         height: 100%;
     }
 
+    .gray_card_stake {
+        margin-bottom: 12px;
+    }
+
     .dark_card_stake,
     .gray_card_stake {
         width: 100%;
@@ -1266,6 +1300,11 @@ nav {
 
     .gray_card_selection {
         width: 100%;
+    }
+    
+    .gray_card_selection > .btn-selector {
+        padding: 8px;
+        font-size: 12px;
     }
 
     .legend {
