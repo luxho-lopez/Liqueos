@@ -731,11 +731,21 @@ nav {
 
 
 /* ====================== BRIDGE PAGE ====================== */
+#id_modal,
+#idHistory,
+#idSwapGas {
+    display: none;
+}
+
 .body_bridge {
     margin-top: 73px;
     background-color: #00FF19;
     display: flex;
     justify-content: center;
+}
+
+.many_options {
+    width: 100%;
 }
 
 .content_bridge {
@@ -750,13 +760,142 @@ nav {
     flex-direction: column;
 }
 
-.dark_card_bridge > .many_selection {
+.dark_card_bridge {
     margin: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
+.dark_card_bridge > .gray_card_selection{
+    padding: 6px 8px;
+    width: 85%;
+    height: 67px;
+    margin-bottom: 31px;
+}
 
+.dark_card_bridge > .gray_card_selection > button{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 46px;
+}
+
+.id_modal-1,
+.id_modal-2,
+.id_modal-3 {
+    width: 100%;
+    text-align: center;
+}
+
+.id_modal-1, .id_modal-2 > .legend {
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 58px;
+}
+
+.concept {
+    text-align: center;
+}
+
+.concept > img {
+    margin-bottom: 20px;
+    width: 75px;
+}
+
+.concept > p > span {
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.element > .change {
+    width: 40px;
+    background: none;
+}
+
+.gray_card_modalBridge {
+    margin-bottom: 40px;
+    padding-top: 18.5px;
+    border-radius: 15px;
+}
+
+.gray_card_modalBridge > .cluster {
+    margin: 0 19px 16.5px 80px;
+}
+
+.gray_card_modalBridge > .cluster > .content_entry {
+    width: 70%;
+    height: 45px;
+}
+
+.gray_card_modalBridge > .cluster > .content_entry > input {
+    font-size: 20px;
+    font-family: var(--Font-Sora);
+    font-weight: 400;
+    color: var(--text-1);
+}
+
+.gray_card_modalBridge > .cluster > .content_entry > input::placeholder {
+    color: var(--text-1);
+}
+
+.gray_card_modalBridge > .content_entry {
+    display: flex;
+    padding: 16.5px 80px;
+}
+
+.gray_card_modalBridge > .content_entry > p {
+    margin-right: 15px;
+}
+
+.gray_card_modalBridge > .content_entry > input {
+    font-size: 15px;
+    color: var(--text-1);
+}
+
+.gray_card_modalBridge > .content_entry > input::placeholder {
+    color: var(--text-1);
+}
+ 
+.token_bridge {
+    margin-top: 5px;
+    padding: 4px 8px;
+    border: 1px solid var(--text-1);
+    border-radius: 15px;
+    font-size: 15px;
+    color: var(--text-1);
+}
+
+.btn-primary_bridge {
+    height: 75px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.text_down {
+    margin-top: 40px;
+    font-size: 20px;
+    color: var(--text-2);
+}
+
+.id_modal-2 > textarea {
+    padding: 22.5px 25px;
+    width: 100%;
+    border: 0;
+    border-radius: 20px;
+    background-color: var(--bg-4);
+    outline: none;
+    font-family: var(--Font-Sen);
+    font-size: 20px;
+    color: var(--text-2);
+}
 /* ====================== BRIDGE PAGE ====================== */
 
 

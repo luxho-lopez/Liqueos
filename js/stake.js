@@ -30,3 +30,34 @@ function poolsActive() {
     document.getElementById('idLock').style.display = 'none';
     document.getElementById('idStaking').style.display = 'none';
 }
+
+// Path: js/bridge.js
+function bridgeActive() {
+    document.getElementById('idBridgeActive').style.background = '#05192D';
+    document.getElementById('idHistoryActive').style.background = 'none';
+    document.getElementById('idSwapGasActive').style.background = 'none';
+
+    document.getElementById('idBridge').style.display = 'block';
+    document.getElementById('idHistory').style.display = 'none';
+    document.getElementById('idSwapGas').style.display = 'none';
+}
+
+function historyActive() {
+    document.getElementById('idBridgeActive').style.background = 'none';
+    document.getElementById('idHistoryActive').style.background = '#05192D';
+    document.getElementById('idSwapGasActive').style.background = 'none';
+
+    document.getElementById('idHistory').style.display = 'block';
+    document.getElementById('idBridge').style.display = 'none';
+    document.getElementById('idSwapGas').style.display = 'none';
+}
+
+function swapGasActive() {
+    document.getElementById('idBridgeActive').style.background = 'none';
+    document.getElementById('idHistoryActive').style.background = 'none';
+    document.getElementById('idSwapGasActive').style.background = '#05192D';
+
+    document.getElementById('idSwapGas').style.display = 'block';
+    document.getElementById('idBridge').style.display = 'none';
+    document.getElementById('idHistory').style.display = 'none';
+}

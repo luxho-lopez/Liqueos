@@ -36,149 +36,68 @@
             <div class="content_bridge">
 
                 <div class="dark_card dark_card_bridge">
-                    <div class="many_selection">
-                        <div class="gray_card gray_card_selection">
-                            <button type="button" class="btn-selector" id="idLockActive"
-                                onclick="lockActive();">Lock</button>
-                            <button type="button" class="btn-selector" id="idStakingActive"
-                                onclick="stakingActive();">Staking</button>
-                            <button type="button" class="btn-selector" id="idPoolsActive"
-                                onclick="poolsActive();">Inactive Pools</button>
-                        </div>
-                        <p id="idLegend" class="legend">Lock your FLARE to receive veFLARE</p>
+                    <div class="gray_card gray_card_selection">
+                        <button type="button" class="btn-selector" id="idBridgeActive"
+                            onclick="bridgeActive();">Bridge</button>
+                        <button type="button" class="btn-selector" id="idHistoryActive"
+                            onclick="historyActive();">History</button>
+                        <button type="button" class="btn-selector" id="idSwapGasActive" onclick="swapGasActive();">Swap
+                            for Gas</button>
                     </div>
 
                     <div class="many_options">
-                        <div id="idLock">
-                            <div class="idContend idContend_lock">
-                                <div class="lock_content_1">
-                                    <p class="lock_title">Lock FLARE tokens</p>
-                                    <div class="gray_card ">
-                                        <div class="cluster">
-                                            <div class="cluster_item">
-                                                <img src="images/default/ETH.png" alt="">
-                                                <p class="cluster_item_name"><span>WETH</span>
-                                                    <br>Amount to lock
-                                                </p>
-                                            </div>
-                                            <div class="content_entry">
-                                                <input type="text" placeholder="0">
-                                            </div>
-                                        </div>
-                                        <div class="cluster">
-                                            <div class="cluster_item">
-                                                <img src="images/icons/Clock.png" alt="">
-                                                <p class="cluster_item_name"><span>Lock for</span>
-                                                    <br>7 days - 4 years
-                                                </p>
-                                            </div>
-                                            <div class="content_entry">
-                                                <input type="text" placeholder="0">
-                                            </div>
-                                        </div>
+                        <div id="idBridge" class="id_modal-1">
+                            <p class="legend">Bridge tokens to and from the Moonbeam Network</p>
 
-                                        <table class="point">
-                                            <tr>
-                                                <td>&bull; 7 Days</td>
-                                                <td>&bull; 1 Month</td>
-                                                <td>&bull; 6 Month</td>
-                                            </tr>
-                                            <tr>
-                                                <td>&bull; 1 Year</td>
-                                                <td>&bull; 2 Years</td>
-                                                <td>&bull; 4 Years</td>
-                                            </tr>
-                                        </table>
-                                    </div>
-
-                                    <button class="change">
-                                        <img src="images/icons/Arrow_Down_2.png" alt="" class="change_img">
-                                    </button>
-
-                                    <div class="gray_card ">
-                                        <div class="cluster">
-                                            <div class="cluster_item">
-                                                <img src="images/default/GLMR.png" alt="">
-                                                <p class="cluster_item_name"><span>GLMR</span>
-                                                    <br>Amount to receive
-                                                </p>
-                                            </div>
-                                            <div class="content_entry">
-                                                <input type="text" placeholder="0">
-                                            </div>
-                                        </div>
-                                        <p class="data_time">Locked until Aug 2, 2022 8:09 PM</p>
-                                    </div>
-                                    
-                                    <button class="btn btn-primary">
-                                        <p>Connect to a wallet</p>
-                                    </button>
+                            <div class="element">
+                                <div class="concept">
+                                    <img src="images/default/ETH.png" alt="">
+                                    <p>From <br>
+                                        <span>Ethereum</span>
+                                    </p>
                                 </div>
+                                <button class="change">
+                                    <img src="images/icons/Arrow_Right.png" alt="" class="change_img">
+                                </button>
+                                <div class="concept">
+                                    <img src="images/default/GLMR.png" alt="">
+                                    <p>To <br>
+                                        <span>Moonbeam</span>
+                                    </p>
+                                </div>
+                            </div>
 
-                                <div class="lock_content_2">
-                                    <p class="lock_title">Stake</p>
+                            <div class="gray_card gray_card_modalBridge">
+                                <div class="cluster">
+                                    <div class="cluster_item">
+                                        <p class="cluster_item_name">Token to bridge: <br>
+                                            <input type="button" class="token_bridge" value="Select a token">
+                                        </p>
+                                    </div>
                                     <div class="content_entry">
-                                        <ul class="lock_tab_defaul">
-                                            <li>
-                                                <p>FLARE locked</p>
-                                                <span>0</span>
-                                            </li>
-                                            <li>
-                                                <p>Locked until</p>
-                                                <span>-</span>
-                                            </li>
-                                            <li>
-                                                <p>veFLARE required to unlock</p>
-                                                <span>0</span>
-                                            </li>
-                                            <li>
-                                                <p>veFLARE in wallet</p>
-                                                <span>0</span>
-                                            </li>
-                                            <li>
-                                                <p>Early unlock penalty fee</p>
-                                                <span>75%</span>
-                                            </li>
-                                        </ul>
+                                        <input type="text" placeholder="0.0">
                                     </div>
+                                </div>
+                                <div class="content_entry">
+                                    <p>Balance on Moonbeam:</p>
+                                    <input type="text" placeholder="0.0">
                                 </div>
                             </div>
+
+                            <button class="btn btn-primary btn-primary_bridge">
+                                <p>Connect to a wallet</p>
+                            </button>
+
+                            <p class="text_down">Powered by Nomad</p>
                         </div>
 
-                        <div id="idStaking">
-                            <div class="idContend">
-                                <div class="inactivePools_up">
-                                    <p>Stake</p>
-                                    <p>TVL</p>
-                                    <p>Rewards</p>
-                                    <p>APR</p>
-                                </div>
+                        <div id="idHistory" class="id_modal-2">
+                            <p class="legend">Bridge tokens to and from the Moonbeam Network</p>
 
-                                <div class="gray_card gray_card_staking">
-
-                                    <div class="content_entry ">
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad aliquid, possimus animi, perspiciatis ex itaque, provident voluptatem ea tempore doloribus cumque eaque minima soluta veniam. Obcaecati impedit ipsam dolor esse.</p>
-                                    </div>
-
-                                    <div class="inactivePools_down_options">
-                                        <div class="down_options">
-                                            <div class="content_entry"><input type="text" placeholder="0.0"></div>
-                                            <button class="btn btn-primary">
-                                                <p>Approve</p>
-                                            </button>
-                                        </div>
-                                        <div class="down_options">
-                                            <div class="content_entry"><input type="text" placeholder="0.0"></div>
-                                            <button class="btn btn-secondary">
-                                                <p>Unstake</p>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <textarea name="transactions" id="" cols="30" rows="16" placeholder="Your transactions will appear here..."></textarea>
                         </div>
 
-                        <div id="idInactivePools">
+                        <div id="idSwapGas">
                             <div class="idContend">
                                 <div class="inactivePools_up">
                                     <p>Stake</p>
@@ -189,10 +108,12 @@
 
 
                                 <div class="content_entry">
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad aliquid, possimus animi, perspiciatis ex itaque, provident voluptatem ea tempore doloribus cumque eaque minima soluta veniam. Obcaecati impedit ipsam dolor esse.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad aliquid, possimus
+                                        animi, perspiciatis ex itaque, provident voluptatem ea tempore doloribus cumque
+                                        eaque minima soluta veniam. Obcaecati impedit ipsam dolor esse.</p>
                                 </div>
 
-                               
+
                             </div>
                         </div>
                     </div>
