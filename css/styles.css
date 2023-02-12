@@ -547,10 +547,6 @@ nav {
     margin: 18px 23px 0;
 }
 
-/* .many_options img {
-    width: 100%;
-} */
-
 .idContend {
     width: 100%;
 }
@@ -701,14 +697,10 @@ nav {
 }
 
 .lock_tab_defaul > li {
-    /* background-color: #00FF19; */
-    /* font-family: var(--Font-Sen);
-    font-size: 15px; */
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* align-items: center; */
 }
 
 .lock_tab_defaul > li > p {
@@ -719,7 +711,6 @@ nav {
     width: 30%;
     text-align: end;
     color: var(--text-2);
-    /* background-color: #00C2FF; */
 }
 
 .lock_content_1 > .change > .change_img {
@@ -731,7 +722,7 @@ nav {
 
 
 /* ====================== BRIDGE PAGE ====================== */
-#id_modal,
+#idBridge,
 #idHistory,
 #idSwapGas {
     display: none;
@@ -739,17 +730,15 @@ nav {
 
 .body_bridge {
     margin-top: 73px;
-    background-color: #00FF19;
     display: flex;
     justify-content: center;
 }
 
-.many_options {
+.dark_card_bridge > .many_options {
     width: 100%;
 }
 
 .content_bridge {
-    background-color: #00C2FF;
     width: 709px;
 }
 
@@ -787,9 +776,18 @@ nav {
     text-align: center;
 }
 
+.id_modal-1 > .legend {
+    margin-bottom: 50px;
+}
+
 .id_modal-1, .id_modal-2 > .legend {
     margin: 0 auto;
     font-size: 20px;
+}
+
+.id_modal-3 > .legend {
+    margin: 0 auto 25px;
+    font-size: 15px;
 }
 
 .element {
@@ -885,7 +883,14 @@ nav {
     color: var(--text-2);
 }
 
+.id_modal-3 > .text_down {
+    margin-top: 27px;
+    font-size: 15px;
+    color: var(--text-2);
+}
+
 .id_modal-2 > textarea {
+    margin-top: 12px;
     padding: 22.5px 25px;
     width: 100%;
     border: 0;
@@ -896,7 +901,47 @@ nav {
     font-size: 20px;
     color: var(--text-2);
 }
+
+.swap_gas {
+    margin: 0 auto 28px auto;
+    width: 563px;
+}
+
+.swap_gas > .cluster {
+    border-radius: 20px;
+    padding: 13px 16px;
+    background-color: var(--bg-5);
+}
+
+.swap_gas > .cluster > .content_entry {
+    margin: 0;
+    height: 58px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-4);
+}
+
+.swap_gas > .cluster > .content_entry > input {
+    font-size: 20px;
+}
+
+.swap_gas > .change {
+    margin: 20px auto;
+    width: 50px;
+    background: none;
+}
 /* ====================== BRIDGE PAGE ====================== */
+
+
+/* ====================== FARMS PAGE ====================== */
+#idAllFarms,
+#idStableFarms,
+#idDoubleRewards,
+#idInactiveFarms {
+    display: none;
+}
+/* ====================== FARMS PAGE ====================== */
 
 
 
@@ -1534,4 +1579,121 @@ nav {
         margin-bottom: 0;
     }
     /* ====================== STAKE PAGE ====================== */
+
+
+
+    /* ====================== BRIDGE PAGE ====================== */
+    .body_bridge {
+        margin: 0;
+        padding: 0;
+    }
+
+    .content_bridge {
+        margin: 18px 9.5px;
+        width: 100%;
+    }
+  
+    .dark_card_bridge > .gray_card_selection {
+        width: 95%;
+        height: 42px;
+        margin: 0;
+    }
+
+    .dark_card_bridge > .gray_card_selection > .btn-selector {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .dark_card_bridge .legend,
+    .dark_card_bridge .text_down {
+        font-size: 10px;
+    }
+    
+    .dark_card_bridge .legend {
+        margin-bottom: 12px;
+    }
+
+    .element {
+        margin-bottom: 20px;
+    }
+
+    .concept > p {
+        font-size: 10px;
+    }
+
+    .concept > p > span {
+        font-size: 15px;
+    }
+
+    .gray_card_modalBridge > .cluster {
+        margin: 0 9px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .gray_card_modalBridge > .cluster > .content_entry {
+        margin: 0 0 0 8px;
+        width: 60%;
+        height: 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .gray_card_modalBridge > .cluster > .content_entry > input{
+        padding: 5px 10px;
+        font-size: 15px;
+        font-family: var(--Font-Sora);
+    }
+
+    .gray_card_modalBridge .content_entry {
+        padding: 8px 9px;
+        border-radius: 7px;
+        align-items: center;
+        font-size: 10px;
+    }
+
+    .token_bridge {
+        font-size: 10px;
+    }
+
+    .btn-primary_bridge {
+        font-size: 15px;
+    }
+
+    .id_modal-2 > textarea {
+        font-size: 12px;
+    }
+
+    .swap_gas {
+        width: 100%;
+    }
+
+    .swap_gas > .cluster {
+        padding: 5.5px 5px;
+        border-radius: 10px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .swap_gas > .cluster > .cluster_item {
+        margin-right: 7px;
+        width: 50%;
+        justify-content: flex-start;
+    }
+
+    .swap_gas > .cluster > .cluster_item > .cluster_item_name {
+        margin: 0;
+    }
+
+    .swap_gas > .cluster > .content_entry {
+        border-radius: 10px;
+        height: 35px;
+    }
+
+    .swap_gas > .cluster > .content_entry > input {
+        padding: 0;
+    }
+    /* ====================== BRIDGE PAGE ====================== */
+
 }

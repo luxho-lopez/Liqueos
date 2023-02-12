@@ -61,3 +61,32 @@ function swapGasActive() {
     document.getElementById('idBridge').style.display = 'none';
     document.getElementById('idHistory').style.display = 'none';
 }
+
+// Path: js/farms.js
+function allFarms() {
+    document.getElementById('idAllFarms').style.display = 'block';
+    document.getElementById('idStableFarms').style.display = 'none';
+    document.getElementById('idDoubleRewards').style.display = 'none';
+    document.getElementById('idInactiveFarms').style.display = 'none';
+}
+
+function stableFarms() {
+    document.getElementById('idAllFarms').style.display = 'none';
+    document.getElementById('idStableFarms').style.display = 'block';
+    document.getElementById('idDoubleRewards').style.display = 'none';
+    document.getElementById('idInactiveFarms').style.display = 'none';
+}
+
+function doubleRewars() {
+    document.getElementById('idAllFarms').style.display = 'none';
+    document.getElementById('idStableFarms').style.display = 'none';
+    document.getElementById('idDoubleRewards').style.display = 'block';
+    document.getElementById('idInactiveFarms').style.display = 'none';
+}
+
+function inactiveFarms() {
+    document.getElementById('idAllFarms').style.display = 'none';
+    document.getElementById('idStableFarms').style.display = 'none';
+    document.getElementById('idDoubleRewards').style.display = 'none';
+    document.getElementById('idInactiveFarms').style.display = 'block';
+}

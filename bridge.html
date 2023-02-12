@@ -20,7 +20,7 @@
                 <li class="frame"><a href="#"><img src="images/default/Frame.png" alt=""></a></li>
                 <li class="menu_item"><a href="index.html">Swap </a></li>
                 <li class="menu_item"><a href="pool.html">Pool </a></li>
-                <li class="menu_item"><a href="#">Farm </a></li>
+                <li class="menu_item"><a href="farms.html">Farm </a></li>
                 <li class="menu_item"><a href="stake.html">Stake </a></li>
                 <li class="menu_item"><a href="#">Bridge </a></li>
                 <li class="menu_item"><a href="#">Mint HEDGE </a></li>
@@ -91,30 +91,54 @@
                             <p class="text_down">Powered by Nomad</p>
                         </div>
 
+
                         <div id="idHistory" class="id_modal-2">
                             <p class="legend">Bridge tokens to and from the Moonbeam Network</p>
 
-                            <textarea name="transactions" id="" cols="30" rows="16" placeholder="Your transactions will appear here..."></textarea>
+                            <textarea name="transactions" id="" cols="30" rows="16"
+                                placeholder="Your transactions will appear here..."></textarea>
                         </div>
 
-                        <div id="idSwapGas">
-                            <div class="idContend">
-                                <div class="inactivePools_up">
-                                    <p>Stake</p>
-                                    <p>TVL</p>
-                                    <p>Rewards</p>
-                                    <p>APR</p>
+
+                        <div id="idSwapGas" class="id_modal-3">
+                            <p class="legend">Swap supported tokens for GLMR to pay the transaction fees.</p>
+                            <p class="legend">You can pay gas for around 10 transactions with 0.5 GLMR.</p>
+                            <div class="swap_gas">
+                                <div class="cluster">
+                                    <div class="cluster_item">
+                                        <img src="images/default/ETH.png" alt="">
+                                        <p class="cluster_item_name">Token to swap: <br>
+                                            <span>WETH</span>
+                                        </p>
+                                    </div>
+                                    <div class="content_entry">
+                                        <input type="text" placeholder="0.0">
+                                    </div>
                                 </div>
 
+                                <button class="change">
+                                    <img src="images/icons/Arrow_Down_2.png" alt="" class="change_img">
+                                </button>
 
-                                <div class="content_entry">
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad aliquid, possimus
-                                        animi, perspiciatis ex itaque, provident voluptatem ea tempore doloribus cumque
-                                        eaque minima soluta veniam. Obcaecati impedit ipsam dolor esse.</p>
+                                <div class="cluster">
+                                    <div class="cluster_item">
+                                        <img src="images/default/GLMR.png" alt="">
+                                        <p class="cluster_item_name">Token to swap: <br>
+                                            <span>WETH</span>
+                                        </p>
+                                    </div>
+                                    <div class="content_entry">
+                                        <input type="text" placeholder="0.0">
+                                    </div>
                                 </div>
-
 
                             </div>
+                            <button class="btn btn-primary btn-primary_bridge">
+                                <p>Connect to a wallet</p>
+                            </button>
+
+                            <p class="text_down">This is a gas-less transaction.</p>
+                            <p class="text_down">There is a 3% fee on every swap to cover gas cost.</p>
                         </div>
                     </div>
                 </div>
@@ -123,7 +147,7 @@
     </div>
 
     <script src="js/navbar.js"></script>
-    <script src="js/stake.js"></script>
+    <script src="js/function.js"></script>
 </body>
 
 </html>

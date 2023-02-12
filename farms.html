@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&family=Sora:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Liqueos | Stake</title>
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <ul class="menu">
+                <li class="frame"><a href="#"><img src="images/default/Frame.png" alt=""></a></li>
+                <li class="menu_item"><a href="index.html">Swap </a></li>
+                <li class="menu_item"><a href="pool.html">Pool </a></li>
+                <li class="menu_item"><a href="#">Farm </a></li>
+                <li class="menu_item"><a href="stake.html">Stake </a></li>
+                <li class="menu_item"><a href="bridge.html">Bridge </a></li>
+                <li class="menu_item"><a href="#">Mint HEDGE </a></li>
+                <li class="menu_item"><a href="#">Crowd Loan </a></li>
+                <li class="toggle">
+                    <p>Stake</p>
+                    <a href="#"> <img src="images/icons/Arrow_Down.png" alt=""> </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="body body_stake">
+            <div class="content_stake">
+                <div class="gray_card gray_card_stake">
+                    <div class="gray_card_head stake_head">
+                        <p class="title">Stake</p>
+                    </div>
+                    <div class="stake_body">
+                        <div class="paragraph">
+                            <p class="paragraph_1">Lock FLARE to receive veFLARE token, the longer you lock the more
+                                veFLARE you will receive.</p>
+
+                            <p class="paragraph_2">You can use veFLARE to earn ecosystem profits, partner tokens and
+                                governance voting.</p>
+
+                            <a href="#">Read more</a>
+                        </div>
+
+                        <ul class="information">
+                            <li>
+                                <p class="information_name">Total FLARE Locked</p>
+                                <span class="information_status">13,294,575</span>
+                            </li>
+                            <li>
+                                <p class="information_name">Total veFLARE Minted</p>
+                                <span class="information_status">12,421,108</span>
+                            </li>
+                            <li>
+                                <p class="information_name">Total veFLARE Staked</p>
+                                <span class="information_status">10,446,445</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="dark_card dark_card_farms">
+                    <div class="many_selection">
+                        <div class="gray_card gray_card_selection">
+                            <button type="button" class="btn-selector" id="idAllFarmsActive"
+                                onclick="allFarms();">All farms</button>
+                            <button type="button" class="btn-selector" id="idStableFarmsActive"
+                                onclick="stableFarms();">Stable farms</button>
+                            <button type="button" class="btn-selector" id="idDoubleRewardsActive"
+                                onclick="doubleRewars();">Double rewards</button>
+                            <button type="button" class="btn-selector" id="idInactiveFarmsActive"
+                                onclick="inactiveFarms();">Inactive farms</button>
+                        </div>
+                        <p id="idLegend" class="legend">Lock your FLARE to receive veFLARE</p>
+                    </div>
+
+                    <div class="many_options">
+                        <div id="idAllFarms">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero quis dolore laborum mollitia. Ex ipsam laborum accusantium cum. Rerum dolorem ut ipsum voluptatibus in deserunt dolor suscipit itaque praesentium magnam!</p>
+                        </div>
+                        
+                        <div id="idStableFarms">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rem consequuntur amet tempora, corporis incidunt distinctio non vero dolore sunt magnam, cupiditate eveniet neque suscipit deleniti harum commodi fugiat pariatur!</p>
+                        </div>
+                        
+                        <div id="idDoubleRewards">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rem consequuntur amet tempora, corporis incidunt distinctio non vero dolore sunt magnam, cupiditate eveniet neque suscipit deleniti harum commodi fugiat pariatur!</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum dicta doloremque, quae, iusto harum sunt magnam libero ut eligendi atque natus inventore facere quisquam. Consequuntur quod doloremque vitae possimus.</p>
+                        </div>
+
+                        <div id="idInactiveFarms">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nostrum dicta doloremque, quae, iusto harum sunt magnam libero ut eligendi atque natus inventore facere quisquam. Consequuntur quod doloremque vitae possimus.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos rem consequuntur amet tempora, corporis incidunt distinctio non vero dolore sunt magnam, cupiditate eveniet neque suscipit deleniti harum commodi fugiat pariatur!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/function.js"></script>
+</body>
+
+</html>
