@@ -140,8 +140,8 @@
                                         </div>
                                         <p class="data_time">Locked until Aug 2, 2022 8:09 PM</p>
                                     </div>
-                                    
-                                    <button class="btn btn-primary">
+
+                                    <button class="btn btn-primary btn_idContend_lock">
                                         <p>Connect to a wallet</p>
                                     </button>
                                 </div>
@@ -178,31 +178,53 @@
 
                         <div id="idStaking">
                             <div class="idContend">
-                                <div class="inactivePools_up">
-                                    <p>Stake</p>
-                                    <p>TVL</p>
-                                    <p>Rewards</p>
-                                    <p>APR</p>
-                                </div>
+                                <ul class="menu_item_transform">
+                                    <li>
+                                        <p>Stake</p>
+                                    </li>
+                                    <li>
+                                        <p>TVL</p>
+                                    </li>
+                                    <li>
+                                        <p>Rewards</p>
+                                    </li>
+                                    <li>
+                                        <p>APR</p>
+                                    </li>
+                                </ul>
 
                                 <div class="gray_card gray_card_staking">
 
-                                    <div class="content_entry ">
-                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad aliquid, possimus animi, perspiciatis ex itaque, provident voluptatem ea tempore doloribus cumque eaque minima soluta veniam. Obcaecati impedit ipsam dolor esse.</p>
-                                    </div>
-
-                                    <div class="inactivePools_down_options">
-                                        <div class="down_options">
-                                            <div class="content_entry"><input type="text" placeholder="0.0"></div>
-                                            <button class="btn btn-primary">
-                                                <p>Approve</p>
-                                            </button>
-                                        </div>
-                                        <div class="down_options">
-                                            <div class="content_entry"><input type="text" placeholder="0.0"></div>
-                                            <button class="btn btn-secondary">
-                                                <p>Unstake</p>
-                                            </button>
+                                    <div class="gray_card item_transform_content">
+                                        <button id="idItemTransform" class="item_transform" onclick="itemTransform1()">
+                                            <div class="item_transform_inter inter_elements-3">
+                                                <img src="images/default/ETH.png" alt="">
+                                                <p>Ethereum</p>
+                                            </div>
+                                            <div class="item_transform_inter inter_elements-2">
+                                                <p>$39.20 K</p>
+                                            </div>
+                                            <div class="item_transform_inter inter_elements-3">
+                                                <img src="images/default/ETH.png" alt="">
+                                                <p>30,046 FLARE / DAY</p>
+                                            </div>
+                                            <div class="item_transform_inter inter_elements-4">
+                                                <p>$98.08% <span>Annualized</span></p>
+                                            </div>
+                                        </button>
+                                        <div id="idItemShow1" class="inactivePools_down_options">
+                                            <div class="down_options">
+                                                <div class="content_entry"><input type="text" placeholder="0.0"></div>
+                                                <button class="btn btn-primary">
+                                                    <p>Approve</p>
+                                                </button>
+                                            </div>
+                                            <div class="down_options">
+                                                <div class="content_entry"><input type="text" placeholder="0.0"></div>
+                                                <button class="btn btn-secondary">
+                                                    <p>Unstake</p>
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -211,19 +233,40 @@
 
                         <div id="idInactivePools">
                             <div class="idContend">
-                                <div class="inactivePools_up">
-                                    <p>Stake</p>
-                                    <p>TVL</p>
-                                    <p>Rewards</p>
-                                    <p>APR</p>
+                                <ul class="menu_item_transform">
+                                    <li>
+                                        <p>Stake</p>
+                                    </li>
+                                    <li>
+                                        <p>TVL</p>
+                                    </li>
+                                    <li>
+                                        <p>Rewards</p>
+                                    </li>
+                                    <li>
+                                        <p>APR</p>
+                                    </li>
+                                </ul>
+
+
+                                <div class="gray_card item_transform_content">
+                                    <button class="item_transform">
+                                        <div class="item_transform_inter inter_elements-3">
+                                            <img src="images/default/ETH.png" alt="">
+                                            <p>Ethereum</p>
+                                        </div>
+                                        <div class="item_transform_inter inter_elements-2">
+                                            <p>$39.20 K</p>
+                                        </div>
+                                        <div class="item_transform_inter inter_elements-3">
+                                            <img src="images/default/ETH.png" alt="">
+                                            <p>30,046 FLARE / DAY</p>
+                                        </div>
+                                        <div class="item_transform_inter inter_elements-4">
+                                            <p>$98.08% <span>Annualized</span></p>
+                                        </div>
+                                    </button>
                                 </div>
-
-
-                                <div class="content_entry">
-                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad aliquid, possimus animi, perspiciatis ex itaque, provident voluptatem ea tempore doloribus cumque eaque minima soluta veniam. Obcaecati impedit ipsam dolor esse.</p>
-                                </div>
-
-                               
                             </div>
                         </div>
                     </div>

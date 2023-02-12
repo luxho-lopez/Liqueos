@@ -309,24 +309,24 @@ nav {
     align-items: center;
 }
 
-.content_entry_swap > input,
-.content_entry_swap > button {
+.content_entry_swap>input,
+.content_entry_swap>button {
     width: 50%;
 }
 
-.content_entry_swap > input {
+.content_entry_swap>input {
     padding: 0 14px;
     font-size: 24px;
 }
 
-.content_entry_swap > hr {
+.content_entry_swap>hr {
     width: 15px;
     height: 1px;
-    border: 1px solid #11A0CC;;
+    border: 1px solid #11A0CC;
     transform: rotate(90deg);
 }
 
-.content_entry_swap > button {
+.content_entry_swap>button {
     padding: 0 19px 0 10px;
     font-size: 24px;
     color: var(--text-1);
@@ -341,7 +341,6 @@ nav {
 }
 
 .btn-images {
-    /* margin-left: 13px; */
     width: 8px;
 }
 
@@ -351,7 +350,6 @@ nav {
     border-radius: 11px;
     width: auto;
     background-color: var(--bg-5);
-
     display: flex;
     align-items: center;
 }
@@ -360,8 +358,6 @@ nav {
     margin: 5px 7.2px;
     width: 27.14px;
 }
-
-
 
 /* ====================== POOL PAGE ====================== */
 .body_pool {
@@ -432,7 +428,6 @@ nav {
 }
 
 /* ====================== POOL PAGE ====================== */
-
 
 /* ====================== STAKE PAGE ====================== */
 #idLock,
@@ -552,21 +547,10 @@ nav {
 }
 
 .lock_body {
-    display: flex; 
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
-.inactivePools_up {
-    display: flex;
-    justify-content: space-between;
-}
-
-.inactivePools_up {
-    margin: 10px 21px;
-    color: var(--text-2);
-}
-
 
 .gray_card_staking {
     border-radius: 20px;
@@ -583,12 +567,12 @@ nav {
     width: 48%;
 }
 
-.down_options > .content_entry > input {
+.down_options>.content_entry>input {
     margin: 16px;
     font-size: 20px;
 }
 
-.down_options > button {
+.down_options>button {
     margin-top: 23px;
     margin-bottom: 17px;
 }
@@ -597,6 +581,10 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.btn_idContend_lock {
+    margin-top: 23px;
 }
 
 .lock_title {
@@ -608,7 +596,7 @@ nav {
     width: 70%;
 }
 
-.lock_content_1 > .gray_card {
+.lock_content_1>.gray_card {
     border-radius: 10px;
     padding: 20px 13px;
 }
@@ -631,7 +619,7 @@ nav {
     align-items: center;
 }
 
-.cluster_item > img {
+.cluster_item>img {
     width: 57px;
 }
 
@@ -640,22 +628,22 @@ nav {
     font-size: 15px;
 }
 
-.cluster_item_name > span {
+.cluster_item_name>span {
     font-size: 32px;
     font-weight: 700;
 }
 
-.cluster:nth-child(2) > .cluster_item > .cluster_item_name > span {
+.cluster:nth-child(2)>.cluster_item>.cluster_item_name>span {
     font-size: 24px;
     font-weight: 400;
 }
 
-.cluster > .content_entry {
+.cluster>.content_entry {
     width: 50%;
     padding: 9px 19px;
 }
 
-.cluster > .content_entry > input {
+.cluster>.content_entry>input {
     width: 100%;
     font-size: 40px;
     color: var(--text-1);
@@ -670,7 +658,7 @@ nav {
     padding: 5px;
 }
 
-.lock_content_1 > .change {
+.lock_content_1>.change {
     margin: 22px auto;
     background: none;
 }
@@ -687,7 +675,7 @@ nav {
     width: 28%;
 }
 
-.lock_content_2 > .content_entry {
+.lock_content_2>.content_entry {
     padding: 18px;
     height: 95%;
 }
@@ -696,30 +684,29 @@ nav {
     list-style: none;
 }
 
-.lock_tab_defaul > li {
+.lock_tab_defaul>li {
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.lock_tab_defaul > li > p {
+.lock_tab_defaul>li>p {
     width: 70%;
 }
 
-.lock_tab_defaul > li > span {
+.lock_tab_defaul>li>span {
     width: 30%;
     text-align: end;
     color: var(--text-2);
 }
 
-.lock_content_1 > .change > .change_img {
+.lock_content_1>.change>.change_img {
     width: 100%;
     height: 100%;
 }
 
 /* ====================== STAKE PAGE ====================== */
-
 
 /* ====================== BRIDGE PAGE ====================== */
 #idBridge,
@@ -734,7 +721,7 @@ nav {
     justify-content: center;
 }
 
-.dark_card_bridge > .many_options {
+.dark_card_bridge>.many_options {
     width: 100%;
 }
 
@@ -742,7 +729,7 @@ nav {
     width: 709px;
 }
 
-.content_bridge > .dark_card_bridge {
+.content_bridge>.dark_card_bridge {
     padding: 20px;
     border-radius: 30px;
     display: flex;
@@ -756,14 +743,14 @@ nav {
     align-items: center;
 }
 
-.dark_card_bridge > .gray_card_selection{
+.dark_card_bridge>.gray_card_selection {
     padding: 6px 8px;
     width: 85%;
     height: 67px;
     margin-bottom: 31px;
 }
 
-.dark_card_bridge > .gray_card_selection > button{
+.dark_card_bridge>.gray_card_selection>button {
     font-size: 20px;
     font-weight: 700;
     padding: 16px 46px;
@@ -776,16 +763,17 @@ nav {
     text-align: center;
 }
 
-.id_modal-1 > .legend {
+.id_modal-1>.legend {
     margin-bottom: 50px;
 }
 
-.id_modal-1, .id_modal-2 > .legend {
+.id_modal-1,
+.id_modal-2>.legend {
     margin: 0 auto;
     font-size: 20px;
 }
 
-.id_modal-3 > .legend {
+.id_modal-3>.legend {
     margin: 0 auto 25px;
     font-size: 15px;
 }
@@ -802,18 +790,18 @@ nav {
     text-align: center;
 }
 
-.concept > img {
+.concept>img {
     margin-bottom: 20px;
     width: 75px;
 }
 
-.concept > p > span {
+.concept>p>span {
     line-height: 60px;
     font-size: 24px;
     font-weight: 700;
 }
 
-.element > .change {
+.element>.change {
     width: 40px;
     background: none;
 }
@@ -824,44 +812,44 @@ nav {
     border-radius: 15px;
 }
 
-.gray_card_modalBridge > .cluster {
+.gray_card_modalBridge>.cluster {
     margin: 0 19px 16.5px 80px;
 }
 
-.gray_card_modalBridge > .cluster > .content_entry {
+.gray_card_modalBridge>.cluster>.content_entry {
     width: 70%;
     height: 45px;
 }
 
-.gray_card_modalBridge > .cluster > .content_entry > input {
+.gray_card_modalBridge>.cluster>.content_entry>input {
     font-size: 20px;
     font-family: var(--Font-Sora);
     font-weight: 400;
     color: var(--text-1);
 }
 
-.gray_card_modalBridge > .cluster > .content_entry > input::placeholder {
+.gray_card_modalBridge>.cluster>.content_entry>input::placeholder {
     color: var(--text-1);
 }
 
-.gray_card_modalBridge > .content_entry {
+.gray_card_modalBridge>.content_entry {
     display: flex;
     padding: 16.5px 80px;
 }
 
-.gray_card_modalBridge > .content_entry > p {
+.gray_card_modalBridge>.content_entry>p {
     margin-right: 15px;
 }
 
-.gray_card_modalBridge > .content_entry > input {
+.gray_card_modalBridge>.content_entry>input {
     font-size: 15px;
     color: var(--text-1);
 }
 
-.gray_card_modalBridge > .content_entry > input::placeholder {
+.gray_card_modalBridge>.content_entry>input::placeholder {
     color: var(--text-1);
 }
- 
+
 .token_bridge {
     margin-top: 5px;
     padding: 4px 8px;
@@ -883,13 +871,13 @@ nav {
     color: var(--text-2);
 }
 
-.id_modal-3 > .text_down {
+.id_modal-3>.text_down {
     margin-top: 27px;
     font-size: 15px;
     color: var(--text-2);
 }
 
-.id_modal-2 > textarea {
+.id_modal-2>textarea {
     margin-top: 12px;
     padding: 22.5px 25px;
     width: 100%;
@@ -907,13 +895,13 @@ nav {
     width: 563px;
 }
 
-.swap_gas > .cluster {
+.swap_gas>.cluster {
     border-radius: 20px;
     padding: 13px 16px;
     background-color: var(--bg-5);
 }
 
-.swap_gas > .cluster > .content_entry {
+.swap_gas>.cluster>.content_entry {
     margin: 0;
     height: 58px;
     font-size: 20px;
@@ -922,17 +910,17 @@ nav {
     background-color: var(--bg-4);
 }
 
-.swap_gas > .cluster > .content_entry > input {
+.swap_gas>.cluster>.content_entry>input {
     font-size: 20px;
 }
 
-.swap_gas > .change {
+.swap_gas>.change {
     margin: 20px auto;
     width: 50px;
     background: none;
 }
-/* ====================== BRIDGE PAGE ====================== */
 
+/* ====================== BRIDGE PAGE ====================== */
 
 /* ====================== FARMS PAGE ====================== */
 #idAllFarms,
@@ -941,9 +929,133 @@ nav {
 #idInactiveFarms {
     display: none;
 }
+
+#idItemShow1,
+#idItemShow2,
+#idItemShow3 {
+    display: none;
+}
+
+.dark_card_farms {
+    width: 74%;
+    border-radius: 30px;
+    padding-top: 23px;
+}
+
+.menu_item_transform {
+    margin: 25px 15px 10px 15px;
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-2);
+}
+
+.menu_item_transform>li {
+    width: 25%;
+}
+
+.menu_item_transform>li:nth-child(4) {
+    text-align: right;
+}
+
+.dark_card_farms>.many_selection {
+    align-items: stretch;
+}
+
+.dark_card_farms>.many_selection>.gray_card_selection {
+    width: 88%;
+}
+
+.dark_card_farms>.many_selection>.gray_card_selection>button {
+    font-size: 16px;
+}
+
+.farms_search {
+    border-radius: 15px;
+    width: 66px;
+    background-color: var(--bg-5);
+}
+
+.item_transform_content {
+    border-radius: 20px;
+}
+
+.item_transform {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    color: var(--text-1);
+    background-color: var(--bg-5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item_transform_inter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item_transform_inter>img {
+    margin-right: 10px;
+    width: 25px;
+}
+
+.inter_elements-1>p,
+.inter_elements-3>p {
+    font-family: var(--Font-Sen);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.inter_elements-2,
+.inter_elements-4 {
+    font-family: var(--Font-Sora);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.inter_elements-3>img {
+    width: 50px;
+}
+
+.inter_elements-4>p {
+    display: flex;
+    flex-direction: column;
+}
+
+.inter_elements-4>p>span {
+    font-family: var(--Font-Sen);
+    font-size: 10px;
+    font-weight: 400;
+    color: var(--text-2);
+}
+
+#idFarmsSearch {
+    display: none;
+}
+
+.inter_elements-diferent>img:nth-child(2) {
+    margin-left: -20px;
+}
+
+.inter_elements-diferent>img:nth-child(3) {
+    margin-left: -25px;
+}
+
+#idDoubleRewards>textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    border: 0;
+    color: var(--text-2);
+    background-color: var(--bg-3);
+    outline: none;
+}
+
 /* ====================== FARMS PAGE ====================== */
-
-
 
 @media (max-width: 1024px) {
     .main {
@@ -1030,7 +1142,7 @@ nav {
     .content_entry_swap>button {
         justify-content: center;
     }
-    
+
     .coin_name,
     .btn-images {
         margin-left: 15px;
@@ -1061,8 +1173,6 @@ nav {
         margin-top: 23.62px;
     }
 
-
-
     /* ====================== POOL PAGE ====================== */
     .body_pool {
         margin: 0;
@@ -1086,13 +1196,10 @@ nav {
         height: 44.89px;
 
     }
-
     /* ====================== POOL PAGE ====================== */
-
 
     /* ====================== STAKE PAGE ====================== */
     .body_stake {
-        /* font-size: 15px; */
         font-weight: 400;
     }
 
@@ -1100,15 +1207,15 @@ nav {
         margin: 89px 30px 0;
     }
 
-    .cluster_item > img {
+    .cluster_item>img {
         width: 45px;
     }
 
-    .cluster_item_name > span {
+    .cluster_item_name>span {
         font-size: 32px;
     }
 
-    .cluster > .content_entry {
+    .cluster>.content_entry {
         padding: 2px 14px;
     }
 
@@ -1119,9 +1226,18 @@ nav {
     .btn-primary {
         height: 48px;
         border-radius: 26px;
-    
-    }    
+    }
     /* ====================== STAKE PAGE ====================== */
+
+    /* ====================== FARMS PAGE ====================== */
+    .inter_elements-3>img {
+        width: 40px;
+    }
+
+    #idStableFarmsActive {
+        font-size: 14px;
+    }
+    /* ====================== FARMS PAGE ====================== */
 }
 
 @media (max-width: 576px) {
@@ -1144,7 +1260,6 @@ nav {
 
     .menu {
         padding: 0 20px;
-
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -1192,16 +1307,12 @@ nav {
     }
 
     .menu_item>a {
-
         font-weight: 400;
         font-size: 15px;
         line-height: 18px;
-
         padding: 15px 0;
         border-radius: 20px;
-
         text-align: center;
-
         display: block;
     }
 
@@ -1330,17 +1441,15 @@ nav {
         font-size: 10px;
     }
 
-    /* EXCHANGE ITEM */
-
     .label_item {
         font-size: 10px;
     }
 
-    .content_entry_swap > hr {
+    .content_entry_swap>hr {
         border: 1px solid var(--text-2);
     }
 
-    .content_entry_swap > button > .change_img {
+    .content_entry_swap>button>.change_img {
         width: 20px;
         height: 20px;
     }
@@ -1354,7 +1463,6 @@ nav {
         width: 8px;
     }
 
-    
     .change {
         width: 40.32px;
         height: 27.57px;
@@ -1372,7 +1480,6 @@ nav {
         margin-top: 31px;
         font-size: 15px;
     }
-
 
     /* ====================== POOL PAGE ====================== */
     .body_pool {
@@ -1425,9 +1532,7 @@ nav {
         border-radius: 8px;
         font-size: 10px;
     }
-
     /* ====================== POOL PAGE ====================== */
-
 
     /* ====================== STAKE PAGE ====================== */
     .body_stake {
@@ -1452,7 +1557,7 @@ nav {
         margin: 12px 12px 0 12px;
     }
 
-    .lock_content_1 > .change > .change_img {
+    .lock_content_1>.change>.change_img {
         width: 100%;
         height: 100%;
     }
@@ -1470,11 +1575,11 @@ nav {
         font-size: 15px;
     }
 
-    .lock_tab_defaul > li > p {
+    .lock_tab_defaul>li>p {
         width: 48%;
     }
-    
-    .lock_tab_defaul > li > span {
+
+    .lock_tab_defaul>li>span {
         width: 52%;
     }
 
@@ -1485,8 +1590,8 @@ nav {
     .gray_card_selection {
         width: 100%;
     }
-    
-    .gray_card_selection > .btn-selector {
+
+    .gray_card_selection>.btn-selector {
         padding: 8px;
         font-size: 12px;
     }
@@ -1519,11 +1624,11 @@ nav {
         margin: 12px 0;
     }
 
-    .cluster:nth-child(2) > .cluster_item > .cluster_item_name > span {
+    .cluster:nth-child(2)>.cluster_item>.cluster_item_name>span {
         font-size: 16px;
     }
 
-    .cluster > .content_entry > input {
+    .cluster>.content_entry>input {
         padding: 9px 18px;
         font-size: 24px;
     }
@@ -1532,11 +1637,11 @@ nav {
         font-size: 12px;
     }
 
-    .cluster_item_name > span {
+    .cluster_item_name>span {
         font-size: 20px;
     }
 
-    .cluster > .content_entry {
+    .cluster>.content_entry {
         width: 100%;
     }
 
@@ -1545,42 +1650,41 @@ nav {
         width: 100%;
     }
 
-    .lock_content_1 > .btn-primary {
+    .lock_content_1>.btn-primary {
         margin-top: 30px;
     }
 
-    .lock_content_1 > .btn-primary > p {
+    .lock_content_1>.btn-primary>p {
         font-size: 15px;
     }
 
     .inactivePools_down_options {
         flex-direction: column;
     }
-    
+
     .down_options {
         width: 100%;
     }
 
-    .down_options > .content_entry {
+    .down_options>.content_entry {
         padding: 8px 12px;
     }
 
-    .down_options > .content_entry > input {
+    .down_options>.content_entry>input {
         margin: 0;
         width: 100%;
     }
 
     /* .down_options > .content_entry > .btn-primary, */
-    .down_options > button {
+    .down_options>button {
         margin-top: 10px;
     }
 
-    .down_options > .btn-primary {
+    .down_options>.btn-primary {
         margin-bottom: 0;
     }
+
     /* ====================== STAKE PAGE ====================== */
-
-
 
     /* ====================== BRIDGE PAGE ====================== */
     .body_bridge {
@@ -1592,14 +1696,14 @@ nav {
         margin: 18px 9.5px;
         width: 100%;
     }
-  
-    .dark_card_bridge > .gray_card_selection {
+
+    .dark_card_bridge>.gray_card_selection {
         width: 95%;
         height: 42px;
         margin: 0;
     }
 
-    .dark_card_bridge > .gray_card_selection > .btn-selector {
+    .dark_card_bridge>.gray_card_selection>.btn-selector {
         padding: 10px 15px;
         font-size: 12px;
     }
@@ -1608,7 +1712,7 @@ nav {
     .dark_card_bridge .text_down {
         font-size: 10px;
     }
-    
+
     .dark_card_bridge .legend {
         margin-bottom: 12px;
     }
@@ -1617,22 +1721,22 @@ nav {
         margin-bottom: 20px;
     }
 
-    .concept > p {
+    .concept>p {
         font-size: 10px;
     }
 
-    .concept > p > span {
+    .concept>p>span {
         font-size: 15px;
     }
 
-    .gray_card_modalBridge > .cluster {
+    .gray_card_modalBridge>.cluster {
         margin: 0 9px;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
 
-    .gray_card_modalBridge > .cluster > .content_entry {
+    .gray_card_modalBridge>.cluster>.content_entry {
         margin: 0 0 0 8px;
         width: 60%;
         height: 30px;
@@ -1640,7 +1744,7 @@ nav {
         align-items: center;
     }
 
-    .gray_card_modalBridge > .cluster > .content_entry > input{
+    .gray_card_modalBridge>.cluster>.content_entry>input {
         padding: 5px 10px;
         font-size: 15px;
         font-family: var(--Font-Sora);
@@ -1661,7 +1765,7 @@ nav {
         font-size: 15px;
     }
 
-    .id_modal-2 > textarea {
+    .id_modal-2>textarea {
         font-size: 12px;
     }
 
@@ -1669,31 +1773,85 @@ nav {
         width: 100%;
     }
 
-    .swap_gas > .cluster {
+    .swap_gas>.cluster {
         padding: 5.5px 5px;
         border-radius: 10px;
         flex-direction: row;
         align-items: center;
     }
 
-    .swap_gas > .cluster > .cluster_item {
+    .swap_gas>.cluster>.cluster_item {
         margin-right: 7px;
         width: 50%;
         justify-content: flex-start;
     }
 
-    .swap_gas > .cluster > .cluster_item > .cluster_item_name {
+    .swap_gas>.cluster>.cluster_item>.cluster_item_name {
         margin: 0;
     }
 
-    .swap_gas > .cluster > .content_entry {
+    .swap_gas>.cluster>.content_entry {
         border-radius: 10px;
         height: 35px;
     }
 
-    .swap_gas > .cluster > .content_entry > input {
+    .swap_gas>.cluster>.content_entry>input {
         padding: 0;
     }
     /* ====================== BRIDGE PAGE ====================== */
 
+    /* ====================== FARMS PAGE ====================== */
+    .dark_card_farms {
+        width: 100%;
+    }
+
+    .dark_card_farms>.many_selection>.gray_card_selection {
+        width: 100%;
+        height: 43px;
+        margin: 0;
+    }
+
+    .dark_card_farms>.many_selection>.gray_card_selection>.btn-selector {
+        padding: 4px 6px;
+        border-radius: 6px;
+        font-size: 12px;
+    }
+
+    .farms_search {
+        margin-top: 11px;
+        padding: 8px 11px;
+        width: 80%;
+        height: 28px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #idFarmsSearch {
+        display: block;
+        font-size: 10px;
+        width: 90%;
+    }
+
+    .menu_item_transform>li {
+        text-align: center;
+    }
+
+    .menu_item_transform>li:nth-child(3) {
+        display: none;
+    }
+
+    .item_transform_inter:nth-child(3) {
+        display: none;
+    }
+
+    .inter_elements-1,
+    .inter_elements-2,
+    .inter_elements-3,
+    .inter_elements-4 {
+        font-size: 11px;
+
+    }
+    /* ====================== FARMS PAGE ====================== */
 }
